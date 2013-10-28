@@ -3,12 +3,15 @@ $(function () {
     //mobile menu click event
     var check = true;
     $(".nav-topical-box").on('click', '.pull', function (elf) {
-        $('#nav-topical').toggle(400);
-        if (check) {
-            $('.pull').text("close");
-        } else {
-            $('.pull').text("menu");
-        }
+        //$('#nav-topical').toggle(400); // Standard up/down
+        $('#container, #container-header').toggleClass("menu-out"); // Off canvas slide-out
+        // $('').toggleClass("menu-out"); // Off canvas slide-out
+        // $('#nav-topical').toggle(200);
+        // if (check) {
+        //     $('.pull').text("close");
+        // } else {
+        //     $('.pull').text("menu");
+        // }
         check = !check;
         return false;
     }); //end mobile menu click 

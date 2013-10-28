@@ -7,7 +7,7 @@
 <title>Syracuse University</title>
 <meta content="" name="description" />
 <meta content="" name="keywords" />
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0;">
 
 <link href="favicon.ico" rel="shortcut icon" />
 <link href="css/reset.css" media="screen" rel="stylesheet" type="text/css" />
@@ -29,6 +29,7 @@
 
 <script src="js/jquery-1.7.1.min.js" type="text/javascript" ></script>
 <script src="js/toggle.js" type="text/javascript" ></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <script src="js/ui.core.js" type="text/javascript" ></script>
 <script src="js/ui.tabs.js" type="text/javascript" ></script>
 <script src="js/jquery.innerfade.js" type="text/javascript" ></script>
@@ -87,6 +88,7 @@
     <input alt="Search Syracuse University" class="btn-search" name="sa" src="images/btn_search.gif" type="image" value="Search" />
   </fieldset>
 </form>
+<a href="#top" class="close-search">close</a>
 <div id="searchoptions">
 <ul>
 <li><a href="http://suds.syr.edu/suds/suds.pl">People Search</a></li>
@@ -400,7 +402,10 @@
             <a href="contact-us" title="Contact Us">Contact Us</a>
         </li>
     </ul><!-- small screen menu -->
-    <a href="#nav-topical-box" class="pull">Menu</a>
+    <div id="mobile-menu">
+    <a href="#nav-topical-box" class="pull"></a>
+    <a href="#searchbox" class="search"></a>
+    </div>
     <!-- a class="pull close-btn" href="#top">Return to Content</a -->
 </div>
     
@@ -429,123 +434,390 @@
 
 </div><!--/container-header -->
 
-<div id="container">   
-    <div class="alumnicontainer" id="col-container-medium">
-          <div id="col-tertiary"><div class="sm-textImageVert"><p><content><h3><a href="http://news.syr.edu/kent-d-syverud-named-12th-chancellor-and-president-of-syracuse-university-41641/" target="_blank">Kent Syverud Named 12th Chancellor at Syracuse University</a></h3>
-<p><a href="http://news.syr.edu/kent-d-syverud-named-12th-chancellor-and-president-of-syracuse-university-41641/" target="_blank"><img alt="Kent Syverud" height="166" src="images/block_images/syverud_posed.jpg" width="205" /></a></p>
-<p>Kent D. Syverud, Dean of the School of Law at Washington University in St. Louis, has been selected to be the 12th Chancellor and President of Syracuse University. The announcement was made following a unanimous vote by SU's Board of Trustees.</p>
-<p><a href="http://news.syr.edu/transcript-of-welcome-address-by-kent-d-syverud-11483/" target="_blank">Read Chancellor-designate Syverud's remarks to the SU community</a></p>
-<p><a href="http://www.youtube.com/watch?v=55Mz0X223Lw" target="_blank">Watch the Hendricks Chapel event</a></p>
-<p><a href="http://news.syr.edu/message-from-board-chairman-richard-l-thompson-72577/">Message from Board Chairman Richard L. Thompson</a></p></content></p></div><div class="sm-textImageVert"><h3>The University Lectures</h3><a href="http://lectures.syr.edu/current-lectures"><img alt="liu" border="0" src="images/academics/lectures2014/liu.jpg" /></a><p><content><p>Eric Liu, c<span>ivic entrepreneur, author, and founder of Guiding Lights Network,</span> will present <em>"The True Meaning of Patriotism"</em> on Tuesday, October 22 at 7:30 p.m. at Hendricks Chapel. <a href="http://lectures.syr.edu/current-lectures" target="_blank">Read more</a></p></content></p></div><div class="sm-textImageVert"><a href="http://giving.syr.edu/giving-to-su/give-now/ "><img alt="Make a Gift Graphic" border="0" src="images/make_gift_transparent.gif" /></a><p><content><p><a href="http://giving.syr.edu/" target="_blank">Learn more about giving to SU</a></p>
-<p><a href="http://syracuse.planyourlegacy.org/index.php" target="_blank">Learn about bequests, trusts, and more</a></p></content></p></div><div class="sm-textImageVert"><h3>Committed to Inclusion and Accessibility</h3><a href="http://www.syr.edu/accessiblesu/"><img alt="access" border="0" src="images/block_images/access.jpg" /></a><p><content><p>Syracuse University values diversity, is committed to inclusion and seeks to provide access for all people, including those with disabilities. Visit <a href="http://www.syr.edu/accessiblesu/index.html" target="_blank">Accessible SU</a> for the latest information on disability and accessibility at SU.</p></content></p></div></div>&#xA;<div id="col-main"><div class="rotator"><div class="frontPost" id="frontPost-1"><div class="bgcon" style="background:url(images/spotlight/lg/Eat-to-live-coop-440_72.jpg) no-repeat;"><div class="postC"><div class="postD"><h4>Eat to Live Food Co-op Opens on South Side</h4><p><p>The urban food cooperative offers fresh and affordable food in an area of Syracuse that until now has had few other nutritious options. <a href="http://news.syr.edu/eat-to-live-food-co-op-opens-on-south-side-44684/" title="EatToLiveCoop">Read more.</a></p></p></div></div></div></div><div class="frontPost" id="frontPost-2"><div class="bgcon" style="background:url(images/spotlight/lg/stageDramaSeussical-440_72.jpg) no-repeat;"><div class="postC"><div class="postD"><h4>
-
-SU Department of Drama Presents "Seussical"
-
-</h4><p><div>
-<div class="WordSection1">
-<p>A musical extravaganza that brings to life all the favorite Dr. Seuss characters is on stage through October 20. <a href="http://vpa.syr.edu/drama/tickets" title="seussical">Read more.</a></p>
-</div>
-</div></p></div></div></div></div><div class="frontPost" id="frontPost-3"><div class="bgcon" style="background:url(images/spotlight/lg/Lockerbie-Claire-Emily-440_72.jpg) no-repeat;"><div class="postC"><div class="postD"><h4>Reflecting on the Pan Am Flight 103 Tragedy</h4><p>"Telling the Stories" gathered oral histories from those who have firsthand knowledge of Pan Am Flight 103. <a href="http://news.syr.edu/lockerbie-reflections-31669/" title="lockerbie.reflections">Read more.</a></p></div></div></div></div><ul class="" id="rotatingTabs"><li class=""><div class="rotatebutton"><a class="rotatingtitle" href="#frontPost-1" ></a></div></li><li class=""><div class="rotatebutton"><a class="rotatingtitle" href="#frontPost-2" ></a></div></li><li class=""><div class="rotatebutton"><a class="rotatingtitle" href="#frontPost-3" ></a></div></li></ul></div><div class="lg-textImageHoriz"><h3>Fabulous Fall</h3>
-<p><iframe frameborder="0" height="236" src="http://www.youtube.com/embed/j6FDg1mZfzM?feature=player_detailpage" width="420" ></iframe></p>
-<p>As the leaves change and the temperatures cool, Rachel Samples '14 shows us the backdrops that make for an alluring autumn on the SU hill.</p></div><div class="lg-textImageHoriz"><a class="cta-button pixielink" href="http://news.syr.edu/pressroom/" target="new">for the media</a><h2>Latest News</h2><h4><a href="http://news.syr.edu/eat-to-live-food-co-op-opens-on-south-side-44684/">Eat to Live Food Co-op Opens on South Side </a></h4><p>The Southside Community Coalition and Syracuse University&#8217;s South Side Initiative Office celebrate the grand opening of the Eat to Live Food Cooperative, located at 2323 S. Salina Street.</p><h5>Other News</h5><ul><li><a href="http://news.syr.edu/volunteers-still-needed-for-family-weekend-33491/">Volunteers Still Needed for Family Weekend </a></li><li><a href="http://news.syr.edu/message-chancellor-cantor-university58674/">Message from Chancellor Nancy Cantor to the University Community</a></li><li><a href="http://news.syr.edu/vice-chancellor-and-provost-eric-f-spina-appointed-interim-chancellor-84891/">Vice Chancellor and Provost Eric F. Spina Appointed Interim Chancellor</a></li></ul><p><a href="http://news.syr.edu">
-                More News
-            </a></p></div><div class="lg-textImageHoriz"><h2>Follow us on Facebook</h2><p><snippet> <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsyracuseuniversity&amp;width=425&amp;height=395&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;border_color&amp;header=false&amp;appId=136082463166291" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:425px; height:395px;" allowTransparency="true"></iframe> </snippet></p></div></div>&#xA;<div id="col-secondary"><div class="sm-eventsVert"><h3>Latest Events</h3><ul><div class="featured-event"><h4>Pan Am 103 Installation</h4><p>October 18,
-                 2013
-                                (All Day)   
-                            </p><p>Slocum Hall atrium</p><p>The School of Architecture has designed and constructed an installation in the atrium of Slocum Hall that remembers and honors those who were lost. The collaborative effort of the students and faculty demonstrates the ability of architecture to act as an agent of change through both cooperative participation and physical expression. A closing reception will be held on Friday, Oct. 18 at 5 p.m. in the atrium of Slocum Hall.</p><a href="http://suevents.syr.edu/main.php?view=event&amp;eventid=1381144956077-0012">More info</a></div><li><h4><a href="http://suevents.syr.edu/main.php?view=event&amp;eventid=1381144446422-0012">Exhibition: "Lockerbie and Disasters"</a></h4><p>October 18,
-                         2013
-                                        (All Day)   
-                                    </p><p>Newhouse 1 lobby</p></li><li><h4><a href="http://suevents.syr.edu/main.php?view=event&amp;eventid=1380227588130">Joan Bennett: Science, Sex Chromosomes and Success</a></h4><p>October 18,
-                         2013                                        
-                                        at 10:00 AM        
-                                    </p><p>114 Bird Library</p></li><li><h4><a href="http://suevents.syr.edu/main.php?view=event&amp;eventid=1380814100102">Writing and Publishing Book Reviews</a></h4><p>October 18,
-                         2013                                        
-                                        at 12:00 PM
-                                    </p><p>105 Link</p></li><li><h4><a href="http://suevents.syr.edu/main.php?view=event&amp;eventid=1380135913120">East Asia Program Presents: Chinese Table</a></h4><p>October 18,
-                         2013                                        
-                                        at 12:00 PM
-                                    </p><p>352 Eggers Hall</p></li></ul><p><a class="cta-button" href="http://suevents.syr.edu/" target="new" title="Full Event Calendar at SU Events">Full Event Calendar</a></p><p style="margin:7px 5px 0px 5px;"><a href="http://suevents.syr.edu/submit_main.php">Submit an Event</a></p></div><div class="sm-textImageVert"><h3>Take A Virtual Tour</h3><a href="http://www.youvisit.com/tour-syracuse.html"><img alt="" border="0" src="admissions/undergraduate/images/virtualtour2.jpg" /></a><p><content><p>Visit campus online! Take a walking tour with our virtual tour guide to explore the sights of our beautiful campus. Visit the Quad, academic buildings, the Carrier Dome, and more. <a href="http://www.youvisit.com/tour-syracuse.html" target="_blank" title="Virtual Tour">Begin tour</a>.</p>
-<p><a href="http://library.syr.edu/" target="_blank">Bird Library</a>&#160;also offers a <a href="http://library.syr.edu/about/tour/index.php" target="_blank">virtual tour</a> highlighting library places, services and collections. Web, slide show and video versions are available.&#160;</p></content></p></div><div class="sm-textImageVert"><h3>SU Magazine</h3><a href="http://sumagazine.syr.edu"><img alt="" border="0" src="alumni/images/SUmag_CVR_SUM13.jpg" /></a><p><content><ul>
-<li><a href="http://sumagazine.syr.edu/" target="_blank" title="Summer 2013 issue">Syracuse University Magazine Summer 2013 issue.</a></li>
-<li><a href="http://subscribe.syr.edu/">Subscribe and be notified when the next issue comes out.</a></li>
-</ul></content></p></div><div class="ad-space"><a href="http://suathletics.com"><img alt="syrweb2.gif" border="0" src="images/ads/syrweb2.gif" /></a></div></div>
-    </div><!-- /col-container -->
-    
-        
- <div id="footer">
+<div id="container">
+<div class="alumnicontainer" id="col-container-medium">
+    <div id="col-tertiary">
+        <div class="sm-textImageVert">
+            <h3>
+                <a href="http://news.syr.edu/kent-d-syverud-named-12th-chancellor-and-president-of-syracuse-university-41641/" target="_blank">Kent Syverud Named 12th Chancellor at Syracuse University</a>
+            </h3>
+            <p>
+                <a href="http://news.syr.edu/kent-d-syverud-named-12th-chancellor-and-president-of-syracuse-university-41641/" target="_blank"><img alt="Kent Syverud" height="166" src="images/block_images/syverud_posed.jpg" width="205"></a>
+            </p>
+            <p>
+                Kent D. Syverud, Dean of the School of Law at Washington University in St. Louis, has been selected to be the 12th Chancellor and President of Syracuse University. The announcement was made following a unanimous vote by SU's Board of Trustees.
+            </p>
+            <p>
+                <a href="http://news.syr.edu/transcript-of-welcome-address-by-kent-d-syverud-11483/" target="_blank">Read Chancellor-designate Syverud's remarks to the SU community</a>
+            </p>
+            <p>
+                <a href="http://www.youtube.com/watch?v=55Mz0X223Lw" target="_blank">Watch the Hendricks Chapel event</a>
+            </p>
+            <p>
+                <a href="http://news.syr.edu/message-from-board-chairman-richard-l-thompson-72577/">Message from Board Chairman Richard L. Thompson</a>
+            </p>
+        </div>
+        <div class="sm-textImageVert">
+            <h3>
+                The University Lectures
+            </h3><a href="http://lectures.syr.edu/current-lectures"><img alt="liu" border="0" src="images/academics/lectures2014/liu.jpg"></a>
+            <p>
+                Eric Liu, c<span>ivic entrepreneur, author, and founder of Guiding Lights Network,</span> will present <em>"The True Meaning of Patriotism"</em> on Tuesday, October 22 at 7:30 p.m. at Hendricks Chapel. <a href="http://lectures.syr.edu/current-lectures" target="_blank">Read more</a>
+            </p>
+        </div>
+        <div class="sm-textImageVert">
+            <a href="http://giving.syr.edu/giving-to-su/give-now/"><img alt="Make a Gift Graphic" border="0" src="images/make_gift_transparent.gif"></a>
+            <p>
+                <a href="http://giving.syr.edu/" target="_blank">Learn more about giving to SU</a>
+            </p>
+            <p>
+                <a href="http://syracuse.planyourlegacy.org/index.php" target="_blank">Learn about bequests, trusts, and more</a>
+            </p>
+        </div>
+        <div class="sm-textImageVert">
+            <h3>
+                Committed to Inclusion and Accessibility
+            </h3><a href="http://www.syr.edu/accessiblesu/"><img alt="access" border="0" src="images/block_images/access.jpg"></a>
+            <p>
+                Syracuse University values diversity, is committed to inclusion and seeks to provide access for all people, including those with disabilities. Visit <a href="http://www.syr.edu/accessiblesu/index.html" target="_blank">Accessible SU</a> for the latest information on disability and accessibility at SU.
+            </p>
+        </div>
+    </div>
+    <div id="col-main">
+        <div class="rotator">
+            <div class="frontPost" id="frontPost-1">
+                <div class="bgcon" style="background:url(images/spotlight/lg/Eat-to-live-coop-440_72.jpg) no-repeat;">
+                    <div class="postC">
+                        <div class="postD">
+                            <h4>
+                                Eat to Live Food Co-op Opens on South Side
+                            </h4>
+                            <p>
+                                The urban food cooperative offers fresh and affordable food in an area of Syracuse that until now has had few other nutritious options. <a href="http://news.syr.edu/eat-to-live-food-co-op-opens-on-south-side-44684/" title="EatToLiveCoop">Read more.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="frontPost" id="frontPost-2">
+                <div class="bgcon" style="background:url(images/spotlight/lg/stageDramaSeussical-440_72.jpg) no-repeat;">
+                    <div class="postC">
+                        <div class="postD">
+                            <h4>
+                                SU Department of Drama Presents "Seussical"
+                            </h4>
+                            <div>
+                                <div class="WordSection1">
+                                    <p>
+                                        A musical extravaganza that brings to life all the favorite Dr. Seuss characters is on stage through October 20. <a href="http://vpa.syr.edu/drama/tickets" title="seussical">Read more.</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="frontPost" id="frontPost-3">
+                <div class="bgcon" style="background:url(images/spotlight/lg/Lockerbie-Claire-Emily-440_72.jpg) no-repeat;">
+                    <div class="postC">
+                        <div class="postD">
+                            <h4>
+                                Reflecting on the Pan Am Flight 103 Tragedy
+                            </h4>
+                            <p>
+                                "Telling the Stories" gathered oral histories from those who have firsthand knowledge of Pan Am Flight 103. <a href="http://news.syr.edu/lockerbie-reflections-31669/" title="lockerbie.reflections">Read more.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="" id="rotatingTabs">
+                <li class="">
+                    <div class="rotatebutton">
+                        <a class="rotatingtitle" href="#frontPost-1"></a>
+                    </div>
+                </li>
+                <li class="">
+                    <div class="rotatebutton">
+                        <a class="rotatingtitle" href="#frontPost-2"></a>
+                    </div>
+                </li>
+                <li class="">
+                    <div class="rotatebutton">
+                        <a class="rotatingtitle" href="#frontPost-3"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="lg-textImageHoriz">
+            <h3>
+                Fabulous Fall
+            </h3>
+            <p>
+                <iframe frameborder="0" height="236" src="http://www.youtube.com/embed/j6FDg1mZfzM?feature=player_detailpage" width="420"></iframe>
+            </p>
+            <p>
+                As the leaves change and the temperatures cool, Rachel Samples '14 shows us the backdrops that make for an alluring autumn on the SU hill.
+            </p>
+        </div>
+        <div class="lg-textImageHoriz">
+            <a class="cta-button pixielink" href="http://news.syr.edu/pressroom/" target="new">for the media</a>
+            <h2>
+                Latest News
+            </h2>
+            <h4>
+                <a href="http://news.syr.edu/eat-to-live-food-co-op-opens-on-south-side-44684/">Eat to Live Food Co-op Opens on South Side</a>
+            </h4>
+            <p>
+                The Southside Community Coalition and Syracuse University’s South Side Initiative Office celebrate the grand opening of the Eat to Live Food Cooperative, located at 2323 S. Salina Street.
+            </p>
+            <h5>
+                Other News
+            </h5>
+            <ul>
+                <li>
+                    <a href="http://news.syr.edu/volunteers-still-needed-for-family-weekend-33491/">Volunteers Still Needed for Family Weekend</a>
+                </li>
+                <li>
+                    <a href="http://news.syr.edu/message-chancellor-cantor-university58674/">Message from Chancellor Nancy Cantor to the University Community</a>
+                </li>
+                <li>
+                    <a href="http://news.syr.edu/vice-chancellor-and-provost-eric-f-spina-appointed-interim-chancellor-84891/">Vice Chancellor and Provost Eric F. Spina Appointed Interim Chancellor</a>
+                </li>
+            </ul>
+            <p>
+                <a href="http://news.syr.edu">More News</a>
+            </p>
+        </div>
+        <div class="lg-textImageHoriz fb-feed">
+            <h2>
+                Follow us on Facebook
+            </h2>
+            <p>
+                <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsyracuseuniversity&amp;width=425&amp;height=395&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;border_color&amp;header=false&amp;appId=136082463166291" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:425px; height:395px;" allowtransparency="true"></iframe>
+            </p>
+        </div>
+    </div>
+    <div id="col-secondary">
+        <div class="sm-eventsVert">
+            <h3>
+                Latest Events
+            </h3>
+            <ul>
+                <li style="list-style: none; display: inline">
+                    <div class="featured-event">
+                        <h4>
+                            Pan Am 103 Installation
+                        </h4>
+                        <p>
+                            October 18, 2013 (All Day)
+                        </p>
+                        <p>
+                            Slocum Hall atrium
+                        </p>
+                        <p>
+                            The School of Architecture has designed and constructed an installation in the atrium of Slocum Hall that remembers and honors those who were lost. The collaborative effort of the students and faculty demonstrates the ability of architecture to act as an agent of change through both cooperative participation and physical expression. A closing reception will be held on Friday, Oct. 18 at 5 p.m. in the atrium of Slocum Hall.
+                        </p><a href="http://suevents.syr.edu/main.php?view=event&amp;eventid=1381144956077-0012">More info</a>
+                    </div>
+                </li>
+                <li>
+                    <h4>
+                        <a href="http://suevents.syr.edu/main.php?view=event&amp;eventid=1381144446422-0012">Exhibition: "Lockerbie and Disasters"</a>
+                    </h4>
+                    <p>
+                        October 18, 2013 (All Day)
+                    </p>
+                    <p>
+                        Newhouse 1 lobby
+                    </p>
+                </li>
+                <li>
+                    <h4>
+                        <a href="http://suevents.syr.edu/main.php?view=event&amp;eventid=1380227588130">Joan Bennett: Science, Sex Chromosomes and Success</a>
+                    </h4>
+                    <p>
+                        October 18, 2013 at 10:00 AM
+                    </p>
+                    <p>
+                        114 Bird Library
+                    </p>
+                </li>
+                <li>
+                    <h4>
+                        <a href="http://suevents.syr.edu/main.php?view=event&amp;eventid=1380814100102">Writing and Publishing Book Reviews</a>
+                    </h4>
+                    <p>
+                        October 18, 2013 at 12:00 PM
+                    </p>
+                    <p>
+                        105 Link
+                    </p>
+                </li>
+                <li>
+                    <h4>
+                        <a href="http://suevents.syr.edu/main.php?view=event&amp;eventid=1380135913120">East Asia Program Presents: Chinese Table</a>
+                    </h4>
+                    <p>
+                        October 18, 2013 at 12:00 PM
+                    </p>
+                    <p>
+                        352 Eggers Hall
+                    </p>
+                </li>
+            </ul>
+            <p>
+                <a class="cta-button" href="http://suevents.syr.edu/" target="new" title="Full Event Calendar at SU Events">Full Event Calendar</a>
+            </p>
+            <p style="margin:7px 5px 0px 5px;">
+                <a href="http://suevents.syr.edu/submit_main.php">Submit an Event</a>
+            </p>
+        </div>
+        <div class="sm-textImageVert">
+            <h3>
+                Take A Virtual Tour
+            </h3><a href="http://www.youvisit.com/tour-syracuse.html"><img alt="" border="0" src="admissions/undergraduate/images/virtualtour2.jpg"></a>
+            <p>
+                Visit campus online! Take a walking tour with our virtual tour guide to explore the sights of our beautiful campus. Visit the Quad, academic buildings, the Carrier Dome, and more. <a href="http://www.youvisit.com/tour-syracuse.html" target="_blank" title="Virtual Tour">Begin tour</a>.
+            </p>
+            <p>
+                <a href="http://library.syr.edu/" target="_blank">Bird Library</a>&nbsp;also offers a <a href="http://library.syr.edu/about/tour/index.php" target="_blank">virtual tour</a> highlighting library places, services and collections. Web, slide show and video versions are available.&nbsp;
+            </p>
+        </div>
+        <div class="sm-textImageVert">
+            <h3>
+                SU Magazine
+            </h3><a href="http://sumagazine.syr.edu"><img alt="" border="0" src="alumni/images/SUmag_CVR_SUM13.jpg"></a>
+            <ul>
+                <li>
+                    <a href="http://sumagazine.syr.edu/" target="_blank" title="Summer 2013 issue">Syracuse University Magazine Summer 2013 issue.</a>
+                </li>
+                <li>
+                    <a href="http://subscribe.syr.edu/">Subscribe and be notified when the next issue comes out.</a>
+                </li>
+            </ul>
+        </div>
+        <div class="ad-space">
+            <a href="http://suathletics.com"><img alt="syrweb2.gif" border="0" src="images/ads/syrweb2.gif"></a>
+        </div>
+    </div>
+</div><!-- /col-container -->
+<div id="footer">
     <div class="footer-content">
         <div id="contact-stamp">
-            <div><img alt="" src="images/footer-logo-syracuse.png" /></div>
+            <div>
+                <img alt="" src="images/footer-logo-syracuse.png">
+            </div>
             <div class="university-address">
-                <p>Syracuse University<br />
-                    900 South Crouse Ave<br />
-                    Syracuse, NY 13244
-                    <a href="http://goo.gl/maps/5dQvg" target="new">map it</a>
-                    </p>
+                <p>
+                    Syracuse University<br>
+                    900 South Crouse Ave<br>
+                    Syracuse, NY 13244 <a href="http://goo.gl/maps/5dQvg" target="new">map it</a>
+                </p>
             </div>
             <div class="university-phInfo">
                 <ul>
-                    <li>Phone: 315.443.1870</li>
+                    <li>Phone: 315.443.1870
+                    </li>
                 </ul>
                 <ul class="sm_icons">
-                    <li><a href="https://www.facebook.com/syracuseuniversity"><img alt="Syracuse University Facebook" src="_assets/images/facebook.png" /></a></li>
-                    <li><a href="https://twitter.com/SyracuseU"><img alt="Syracuse University Twitter" src="_assets/images/twitter.png" /></a></li>
-                    <li><a href="http://www.youtube.com/user/Syracuse"><img alt="Syracuse University Youtube" src="_assets/images/youtube.png" /></a></li>
+                    <li>
+                        <a href="https://www.facebook.com/syracuseuniversity"><img alt="Syracuse University Facebook" src="_assets/images/facebook.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/SyracuseU"><img alt="Syracuse University Twitter" src="_assets/images/twitter.png"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.youtube.com/user/Syracuse"><img alt="Syracuse University Youtube" src="_assets/images/youtube.png"></a>
+                    </li>
                 </ul>
             </div>
-        </div>  
+        </div>
         <ul class="nav-footer">
-            <li class="first"><a href="index.html">Home</a></li>
-            <li><a href="http://www.syr.edu/about/index.html">About SU</a></li>
-            <li><a href="http://www.syr.edu/academics/index.html">Academics</a></li>
-            
-            <li><a href="suintheworld/index.html">SU in the World</a></li>
-            <li class="last"><a href="partnerships/index.html">Partnerships</a></li>
+            <li class="first">
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="http://www.syr.edu/about/index.html">About SU</a>
+            </li>
+            <li>
+                <a href="http://www.syr.edu/academics/index.html">Academics</a>
+            </li>
+            <li>
+                <a href="suintheworld/index.html">SU in the World</a>
+            </li>
+            <li class="last">
+                <a href="partnerships/index.html">Partnerships</a>
+            </li>
         </ul>
         <ul class="nav-footer">
-            <li class="first"><a href="http://www.syr.edu/admissions/index.html">Future Students</a></li>
-            <li><a href="http://www.syr.edu/currentstudents/index.html">Current Students</a></li>
-            <li><a href="facultyandstaff/index.html">Faculty &amp; Staff</a></li>
-            <li><a href="http://www.syr.edu/alumni/index.html">Alumni &amp; Friends</a></li>
-            <li class="last"><a href="parentsandfamilies/index.html">Parents &amp; Families</a></li>
+            <li class="first">
+                <a href="http://www.syr.edu/admissions/index.html">Future Students</a>
+            </li>
+            <li>
+                <a href="http://www.syr.edu/currentstudents/index.html">Current Students</a>
+            </li>
+            <li>
+                <a href="facultyandstaff/index.html">Faculty &amp; Staff</a>
+            </li>
+            <li>
+                <a href="http://www.syr.edu/alumni/index.html">Alumni &amp; Friends</a>
+            </li>
+            <li class="last">
+                <a href="parentsandfamilies/index.html">Parents &amp; Families</a>
+            </li>
         </ul>
         <ul class="nav-footer">
-            <li class="first"><a href="http://suevents.syr.edu">Calendar</a></li>
-            <li><a href="news/index.html">News</a></li>
-            <li><a href="http://suathletics.syr.edu">Athletics</a></li>
-            <li><a href="about/maps/index.html">Campus Maps</a></li>
-            <li><a href="http://library.syr.edu/">SU Libraries</a></li>
-            <li><a href="http://humanresources.syr.edu/proemp/job_opps.html">Jobs</a></li>
-            <li class="last"><a href="news/about/media.html">For The Media</a></li>
+            <li class="first">
+                <a href="http://suevents.syr.edu">Calendar</a>
+            </li>
+            <li>
+                <a href="news/index.html">News</a>
+            </li>
+            <li>
+                <a href="http://suathletics.syr.edu">Athletics</a>
+            </li>
+            <li>
+                <a href="about/maps/index.html">Campus Maps</a>
+            </li>
+            <li>
+                <a href="http://library.syr.edu/">SU Libraries</a>
+            </li>
+            <li>
+                <a href="http://humanresources.syr.edu/proemp/job_opps.html">Jobs</a>
+            </li>
+            <li class="last">
+                <a href="news/about/media.html">For The Media</a>
+            </li>
         </ul>
         <ul class="nav-footer">
-            <li class="first"><a href="about/privacy_policy.html">Privacy Policy</a></li>
-            <li><a href="http://emergencyguide.syr.edu/">Emergency Procedures Reference Guide</a></li>
-            <li><a href="http://sumail.syr.edu/">SU Mail</a></li>
-            <li class="last"><a href="http://myslice.syr.edu/">MySlice</a></li>
-        </ul>   
+            <li class="first">
+                <a href="about/privacy_policy.html">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="http://emergencyguide.syr.edu/">Emergency Procedures Reference Guide</a>
+            </li>
+            <li>
+                <a href="http://sumail.syr.edu/">SU Mail</a>
+            </li>
+            <li class="last">
+                <a href="http://myslice.syr.edu/">MySlice</a>
+            </li>
+        </ul>
     </div>
     <div class="copyright-info clearfix">
-        <div id="copyright">Copyright (c) 2013 Syracuse University. All Rights Reserved.</div>
-        
+        <div id="copyright">
+            Copyright (c) 2013 Syracuse University. All Rights Reserved.
+        </div>
         <div id="footersearch">
-         <form action="http://www.syr.edu/search/search-results.html" class="search clearfix" id="cse-search-box">
-            <fieldset>
-                <input name="cx" type="hidden" value="000608849472313352920:dzkn5vu9mty" />
-                <input name="cof" type="hidden" value="FORID:11" />
-                <input name="ie" type="hidden" value="UTF-8" />
-                <label class="hide" for="search_footer">Search</label> 
-                <input class="search-text" id="search_footer" name="q" type="text" />
-                <input alt="search" class="btn-search" name="sa" src="images/btn_search.gif" type="image" value="Search" />
-            </fieldset>
-         </form>
-         </div>
-    </div>       
-</div><!--/footer -->   
-    <div class="clear" ></div>
-
-
-<script type="text/javascript">
+            <form action="http://www.syr.edu/search/search-results.html" class="search clearfix" id="cse-search-box">
+                <fieldset>
+                    <input name="cx" type="hidden" value="000608849472313352920:dzkn5vu9mty"> <input name="cof" type="hidden" value="FORID:11"> <input name="ie" type="hidden" value="UTF-8"> <label class="hide" for="search_footer">Search</label> <input class="search-text" id="search_footer" name="q" type="text"> <input alt="search" class="btn-search" name="sa" src="images/btn_search.gif" type="image" value="Search">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div><!--/footer -->
+<div class="clear"></div><script type="text/javascript">
   var _gaq = _gaq || [];
   var pluginUrl = 
    'http://www.google-analytics.com/plugins/ga/inpage_linkid.js';
@@ -561,29 +833,18 @@ SU Department of Drama Presents "Seussical"
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
-
-<script type="text/javascript">
+</script><script type="text/javascript">
 /* <![CDATA[ */
 var google_conversion_id = 990270918;
 var google_conversion_label = "fUvKCIqy9wMQxquZ2AM";
 var google_custom_params = window.google_tag_params;
 var google_remarketing_only = true;
 /* ]]> */
-</script>
-<script src="http://www.googleadservices.com/pagead/conversion.js" type="text/javascript">
-</script>
-<noscript>
+</script><script src="http://www.googleadservices.com/pagead/conversion.js" type="text/javascript">
+</script><noscript>
 <div style="display:inline;">
-<img alt="" height="1" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/990270918/?value=0&amp;label=fUvKCIqy9wMQxquZ2AM&amp;guid=ON&amp;script=0" style="border-style:none;" width="1" />
-</div>
-</noscript>
-
-
-
-<div class="modal in" id="alertlatest" ></div> 
-
-
-</div><!-- /container -->
+    <img alt="" height="1" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/990270918/?value=0&amp;label=fUvKCIqy9wMQxquZ2AM&amp;guid=ON&amp;script=0" style="border-style:none;" width="1">
+</div></noscript>
+<div class="modal in" id="alertlatest"></div><!-- /container -->
 </body>
 </html>
