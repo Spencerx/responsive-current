@@ -1,9 +1,0 @@
-/*to adjust 2px difference in heading*/
-@media screen and (-webkit-min-device-pixel-ratio:0){
-
-div.nav-topical-box {
-	/* margin-top:15px; */
-}
-
-
-}

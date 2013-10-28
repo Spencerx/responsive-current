@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<videos assetPath="/flash/assets/video/">
-	<item title="Lorem Ipsum" description="Lorem ipsum dolor sit amet" assetTitle="video" />
-	<item title="Dolor Sit Amet" description="Consectetuer adipiscing elit curabitur" assetTitle="video" />
-	<item title="Consectetuer Adipiscing" description="Integer mauris turpis cursus id" assetTitle="video" />
-</videos>
-
