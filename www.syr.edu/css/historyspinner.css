@@ -1,0 +1,125 @@
+#historywrapper {
+	position:relative;
+	width:490px;
+	height:360px;
+	margin:10px 0px 50px 0px;
+	padding:0px;
+	background:#fff url(/_assets/images/spinner_background.png) left 85px repeat-x;
+	border-radius:10px;	
+	border:1px solid #C6D9E9;
+	
+}
+
+#historyspinner {
+	margin:0px 0px 0px 30px;
+}
+
+#historyfact {
+	position:absolute;
+	left:120px;
+	top:10px;	
+	width:220px;
+	margin:0px;
+	padding:0px;
+}
+
+
+.hisDate {
+	display:block;
+	width:216px;
+	height:58px;
+	background:#ec5e20;
+	font:bold 64px Franklin Gothic Demi,arial, helvetica, sans-serif;
+	color:#fff;
+	margin:0px;
+	padding:10px 0px 3px 10px;
+	text-shadow:none;
+	text-align:center;
+	opacity: 0.95;
+}
+
+
+.hisFact {
+	display:block;
+	width:190px;
+	margin:5px 5px 5px 10px;
+	padding:5px;
+	font:bold 14px arial, helvetica, sans-serif;
+	line-height:1.6em;
+	
+}
+
+#spinme {
+	position:absolute;
+	bottom:0px;
+	left:210px;
+	width:35px;
+	text-align:center;
+	height:50px;
+}
+
+#prev {
+	position: absolute;
+	left:180px;
+	bottom:20px;
+	
+}
+
+#next {
+	position: absolute;
+	left:250px;
+	bottom: 20px;
+}
+
+#spinme a {
+	display:block;
+	width:33px;
+	height:49px;
+	margin:0px auto 0px auto;
+	padding:0px;
+	background:	url(/_assets/images/spin_button.png) left top no-repeat;
+	text-indent:-999px;
+	overflow:hidden;
+}
+
+#decades {
+	width:490px;
+	border-bottom:1px solid #C2CBE0;
+	overflow:visible;
+	height:30px;
+	margin:0px 0px 0px 0px;
+	white-space: nowrap;
+	text-align: center;
+}
+
+#decades ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#decades li {
+	float:left;
+	list-style: none;
+	list-style-image:none;
+	background:none;
+	margin:1px !important;
+	padding:0px !important;
+}
+
+#decades a {
+	font:10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	display:block;
+	margin:0px;
+	padding:1px 2px 1px 3px;
+}
+
+#decades a:hover {
+	background:#F15112;
+	color:#fff;
+}
+
+#historyspinner img, #historyfact img {
+	margin:0px !important;
+	border:none !important;
+}

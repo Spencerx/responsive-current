@@ -1,0 +1,14 @@
+#skiptocontent {
+  position: relative;
+  float: right;
+  z-index: 50;  
+}
+
+ul.menu {
+ list-style: square;
+}
+
+ul.menu li {
+  display:list-item;
+  margin: 0px 0px 2px 20px;
+}

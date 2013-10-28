@@ -1,0 +1,73 @@
+@CHARSET "ISO-8859-1";
+/* LOAN CALC FORM */
+form.loan {	
+	width: 450px;
+}
+
+form.loan input {
+	padding: 3px 0 2px 0;
+	vertical-align: middle;
+	margin:0;
+}
+
+form.loan button {
+	background-color: #F47321;
+	color: #ffffff;
+	border:1px solid;
+}
+
+form.loan fieldset {
+  margin-bottom: 10px;
+}
+form.loan legend {
+  padding: 0 2px;
+  font-weight: bold;
+}
+form.loan label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+}
+form.loan fieldset ol {
+	background-color: #E8E5D6;
+  margin: 0;
+  padding: 0;
+}
+form.loan fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+form.loan fieldset fieldset {
+  border: none;
+  margin: 3px 0 0;
+}
+form.loan fieldset fieldset legend {
+  padding: 0 0 5px;
+  font-weight: normal;
+}
+form.loan fieldset fieldset label {
+  display: block;
+  width: auto;
+}
+
+form.loan label {
+	font-weight: bold;
+  width: 120px; /* Width of labels */
+}
+form.loan fieldset fieldset label {
+  margin-left: 123px; /* Width plus 3 (html space) */
+}
+
+/* MAKE THE RESULTS ALL BIG LIKE */
+#mcRate {
+/* color: #62B054; */
+font-size: 1.4em;
+font-weight: bold;
+}
+
+#mcTotal, #mcPayment {
+/* color: #62B054; */
+font-size: 2.2em;
+font-weight: bold;
+}

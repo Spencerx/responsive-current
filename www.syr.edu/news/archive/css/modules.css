@@ -1,0 +1,1233 @@
+.orange-grove,
+.ad-space,
+.lg-eventsHoriz,
+.lg-magazine,
+.lg-picture,
+.lg-spotlight,
+.lg-tabbedFeature,
+.lg-textImageHoriz,
+.lg-textImageTwoCol,
+.lg-videoQueue,
+.lg-videoSingle,
+.sm-eventsVert,
+.sm-form,
+.sm-listVert,
+.sm-login,
+.sm-picture,
+.sm-publications,
+.sm-subscription,
+.sm-tabbedList,
+.sm-textImageVert,
+.sm-textListVert 
+{
+	margin-bottom:10px;
+}
+
+.lg-eventsHoriz,
+.lg-magazine,
+.lg-picture,
+.lg-tabbedFeature,
+.lg-textImageHoriz,
+.lg-textImageTwoCol,
+.lg-videoQueue,
+.lg-videoSingle 
+{
+	float:left;
+	padding:10px 10px 20px 10px;
+	width:444px;
+	background:#fff;
+}
+
+.lg-spotlight,
+.orange-grove,
+.ad-space 
+{
+	float:left; width:auto;
+}
+
+.sm-eventsVert,
+.sm-form,
+.sm-listVert,
+.sm-login,
+.sm-picture,
+.sm-publications,
+.sm-subscription,
+.sm-tabbedList,
+.sm-textImageVert,
+.sm-textListVert 
+{
+	float:left;
+	padding:10px 10px 20px 10px;
+	width:218px;
+	background:#fff;
+}
+
+.lg-eventsHoriz h2,
+.lg-magazine h2,
+.lg-picture h2,
+.lg-spotlight h2,
+.lg-tabbedFeature h2,
+.lg-textImageHoriz h2,
+.lg-textImageTwoCol h2,
+.lg-videoQueue h2,
+.lg-videoSingle h2,
+.sm-eventsVert h3,
+.sm-form h3,
+.sm-listVert h3,
+.sm-login h3,
+.sm-picture h3,
+.sm-publications h3,
+.sm-subscription h3,
+.sm-tabbedList h3,
+.sm-textImageVert h3,
+.sm-textListVert h3 
+{
+    margin:4px 0 0 0;
+}
+
+.sm-eventsVert a, 
+.lg-picture a, 
+.lg-textImageHoriz a, 
+.lg-textImageTwoCol a, 
+.tab-content a, 
+.sm-textImageVert a, 
+.sm-textListVert a, 
+.lg-magazine a 
+{
+    background: transparent url(images/trailing-double-arrow.gif) no-repeat scroll right 4px;
+    padding-right: 10px;
+}
+
+.image-border-grey,
+.lg-textImageHoriz img,
+.lg-textImageTwoCol img,
+.lg-magazine img,
+.sm-textImageVert img.stroke,
+.lg-eventsHoriz img
+{
+    border: 7px #e8e5d6 solid;
+}
+
+.learnmore {
+    display: block;
+    padding: 20px 10px 7px 0;
+    background-color: #fff;
+}
+
+.learnmore a {
+    background: url(../images/brown_arrow.gif) right top no-repeat;
+    padding: 4px 24px 5px 0;
+    float: right;
+    color: #f47321;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+a.cta-button:link, 
+a.cta-button:visited, 
+a.cta-button:active  {
+    background: #f47321 url(images/cta-btn-arrow.gif) no-repeat scroll right 8px;
+    border: 1px solid #f47321;
+    color: #fff;
+    font-size: 1.0em;
+    padding: 4px 20px 4px 7px;
+	margin-bottom:4px;
+    text-decoration: none;
+	font-weight:bold;
+}
+
+a.cta-button:hover {
+    background: #e8e4d6 url(images/cta-btn-arrow-over.gif) no-repeat scroll right 8px;
+    border: 1px solid #e8e4d6;
+    color: #A62315;
+    font-size: 1.0em;
+    padding: 4px 20px 4px 7px;
+	margin-bottom:4px;
+    text-decoration: none;
+	font-weight:bold;
+}
+
+.ad-space {
+	float:left;
+	width:auto;
+	clear:left;
+}
+
+.orange-grove {
+    background: url(images/bg_orange_grove.gif) top left no-repeat;
+    width: 238px;
+    float: left;
+	height:144px;
+}
+
+.orange-grove span {
+    font-size: 2.6em;
+    display: block;
+    color: #f47321;
+    padding: 7px 0 15px 0;
+    width: 20px;
+	text-indent: -9999px;
+}
+
+.orange-grove p {
+    margin: 45px 15px 0 15px;
+	padding:0;
+	line-height:1.4em;
+}
+
+.orange-grove a {
+    background: url(images/trailing-double-arrow.gif) right 60% no-repeat;
+    padding-right: 8px;
+    color: #f47321;
+}
+
+
+/********************************************************************************************
+1. BANNER MODULE
+********************************************************************************************/
+div.lg-banner {
+	width:1000px;
+	position:absolute;
+	border-bottom:18px solid #F47321;
+	margin:0 auto;
+}
+
+div.lg-banner img {
+	vertical-align: bottom;
+}
+
+div.lg-banner div.banner-content[class] {
+	background:url(images/bg_banner-content.png) no-repeat;
+}
+
+div.lg-banner div.banner-content {
+	position:absolute; 
+	bottom :10px;
+	right: 10px;
+	padding:5px 10px;
+	color:#fff;
+	line-height:1.2em;
+}
+
+div.lg-banner .banner-info {
+	width: 225px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+div.lg-banner div.banner-content a {
+	margin:0 5px;
+	color:#fff;
+	display: block;
+    outline: none;
+	text-decoration:none;
+}
+
+div.lg-banner div.banner-content a.banner-title {
+	 text-align: right;
+}
+
+/*smaller variation used on academics*/
+div.lg-banner-sm {
+	float:left;
+	width:1000px;
+	position:absolute;	
+}
+
+div.lg-banner-sm img {
+	vertical-align: bottom;
+}
+
+/********************************************************************************************
+2. SPOTLIGHT MODULE
+********************************************************************************************/
+.lg-spotlight #tab-container-over {
+	background:#f47321;
+}
+
+.lg-spotlight .ui-tabs-panel {
+	background:#f47321 none repeat scroll 0%;
+	border:none;
+	margin:0;
+	padding:10px 0 0 0;
+	position:relative;
+}
+
+.lg-spotlight .ui-tabs-panel img {
+	margin-left:8px;
+	position:relative;
+}
+
+.lg-spotlight ul.ui-tabs-nav {
+	padding:0;
+	margin:0 0 0 10px;
+	width: 454px;
+} 
+
+.lg-spotlight ul.ui-tabs-nav li {
+	padding:0;
+	margin:0;
+	width:151px;
+}
+
+.lg-spotlight ul#switch li a {
+	background:transparent url(images/spotlight-tab-bg.gif) no-repeat left;
+	width:151px;
+	height:76px;
+	border:none;
+	display:block;
+}
+
+.lg-spotlight ul#switch li.ui-tabs-selected a {
+	background:transparent url(images/spotlight-tab-bg.gif) no-repeat right;
+	border:none;
+}
+
+.lg-spotlight ul#switch li.ui-tabs-selected h5 {
+	color:#fff;
+}
+
+.lg-spotlight ul#switch li a img {
+	float:left; 
+	width:60px; 
+	margin-top:8px;
+}
+
+.lg-spotlight ul#switch li h5 {
+	color:#f47321;
+	text-transform:uppercase;
+	width:70px;
+	padding:0;
+	margin-left:65px;
+	float:left; 
+	margin-top:-50px;
+	position:relative;
+	text-align:left;
+}
+
+.lg-spotlight .tab-content {
+	padding: 15px 0 0 0;
+	width:192px;
+	height:219px;
+	background:url(images/spotlight-content-bg.png) no-repeat;
+	position:relative;
+	margin:-221px 0 -12px 0;
+	z-index:30;
+	margin-left:264px;
+	color:#fff;
+}
+
+.lg-spotlight #tab-container-over .tab-content h4 {
+	color:#f47321 !important;
+	text-transform:none;
+	font-size: 1.5em;
+	font-weight:bold;
+	margin: 0 15px 10px 15px;
+}
+
+.lg-spotlight #tab-container-over .tab-content p {
+	margin:10px 15px;
+}
+
+/********************************************************************************************
+3. EVENTS LARGE HORIZONTAL MODULE
+********************************************************************************************/
+.lg-eventsHoriz h4, 
+.lg-eventsHoriz h4 a {
+    color: #f47321 !important;
+	font-size:1.2em;
+	line-height: 1.2em;
+	margin-bottom:0.5em;
+}
+
+.lg-eventsHoriz p {
+    line-height: 1.4em;
+    font-size: 1.1em;
+}
+
+.lg-eventsHoriz img {
+    margin-right: 10px;
+    float: left;
+}
+
+.lg-eventsHoriz h5 {
+    color: #555;
+	text-transform:uppercase;
+	margin-bottom:0.3em;
+}
+
+.lg-eventsHoriz ul {
+    clear: both;
+    padding: 6px 0 6px 0;
+}
+
+.lg-eventsHoriz ul li {
+    margin: 12px 0;
+}
+
+.lg-eventsHoriz ul li p {
+	text-indent:-10px;
+	margin-left:10px;
+}
+
+.lg-eventsHoriz ul li a { 
+    font-weight: bold;
+    background: transparent url(images/bg_orange_arrow.gif) no-repeat scroll 0 3px;
+    padding-left: 10px;
+}
+
+.lg-eventsHoriz ul.inline li a {
+	background:none; 
+	padding-left:0; 
+	font-weight:normal;
+}
+
+/********************************************************************************************
+4. TODAY'S EVENTS SMALL MODULE
+********************************************************************************************/
+.sm-eventsVert span {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 17px 0;
+    display: block;
+    font-size: 1.1em;
+}
+
+.sm-eventsVert p {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.sm-eventsVert ul li {
+    margin: 8px 0 8px 0;
+    padding: 0 0 6px;
+    background: url(images/bg_event-info.gif) bottom left repeat-x;
+}
+
+.sm-eventsVert ul li.last {
+    background: none;
+}
+
+.sm-eventsVert ul li h4 {
+    color: #f47321;
+    margin: 5px 0;
+}
+
+.sm-eventsVert ul li h4 a, .sm-eventsVert .featured-event h4 a {
+    background: none;
+    font-size: 1.0em;
+    color: #f47321 !important;
+}
+
+.sm-eventsVert .featured-event {
+    background: #E8E5D6;
+    padding: 8px 6px;
+    margin: 10px 0 15px 0;
+	clear:both;
+}
+
+.sm-eventsVert .featured-event img {
+	margin-bottom:6px;
+}
+
+.sm-eventsVert .featured-event a {
+	font-size: 1.0em;
+}
+
+.sm-eventsVert .featured-event h4 {
+    margin: 2px 0;
+    color: #f47321 !important;
+}
+
+.sm-eventsVert .featured-event p {
+    margin: 5px 0;
+}
+
+/********************************************************************************************
+5. SMALL PICTURE/SLIDESHOW MODULE
+********************************************************************************************/
+.sm-picture {
+	padding-bottom:10px;
+	background: #fff url(images/sm-picture-bg.jpg) no-repeat;
+}
+
+.sm-picture p {
+    margin: 15px 0 15px 0;
+}
+
+.sm-picture img {
+	margin: 28px 0 0 10px;
+}
+
+/********************************************************************************************
+6. LARGE PICTURE/SLIDESHOW MODULE
+********************************************************************************************/
+
+.lg-picture p {
+	margin-bottom:0.5em;
+}
+/**
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+ */
+.jcarousel-container {
+    position: relative;
+	-moz-border-radius: 10px;
+}
+
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-item {
+    float: left;
+    list-style: none;
+    /* We set the width/height explicitly. No width/height causes infinite loops. */
+    width: 80px;
+    height: 78px;
+	margin-bottom: 5px;
+}
+
+.jcarousel-item a {
+	opacity: .6;
+	filter: alpha(opacity=60);
+	position:relative;
+}
+
+.jcarousel-item .sm-frame {
+	background:url(images/sm-picture-frame.png) no-repeat;
+	margin:-80px 0 0 -1px;
+	z-index: 20;
+	width: 80px;
+    height: 78px;
+	display:block;
+}
+
+.jcarousel-item a:hover, .jcarousel-item a.active {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.jcarousel-container-vertical {
+    width: 80px;
+    height: 245px;
+    padding: 0 0 18px 16px;
+    float: left;
+    margin-left: 5px;
+}
+
+.jcarousel-clip-vertical {
+    width: 80px;
+    height: 245px;
+}
+
+.jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/***  Vertical Buttons*/
+.jcarousel-next-vertical {
+    position: absolute;
+    bottom: 3px;
+    left: 42px;
+    width: 32px;
+    height: 15px;
+    cursor: pointer;
+    background: transparent url(images/next-vertical.gif) no-repeat 0 0;
+}
+
+.jcarousel-next-disabled-vertical, .jcarousel-next-disabled-vertical:hover, .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+.jcarousel-prev-vertical {
+    position: absolute;
+    top: -18px;
+    left: 42px;
+    width: 32px;
+    height: 15px;
+    cursor: pointer;
+    background: transparent url(images/prev-vertical.gif) no-repeat 0 0;
+}
+
+.jcarousel-prev-vertical:hover {
+    background-position: 0 -32px;
+}
+
+.jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+
+.jcarousel-prev-disabled-vertical, .jcarousel-prev-disabled-vertical:hover, .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+/*large image*/
+
+#slideshow-content {
+    width: 325px;
+    float: left;
+}
+
+.image-gallery .lg-frame {
+	background: transparent url(images/lg-picture-frame.png) no-repeat;
+	margin-top:1px;
+	z-index: 20;
+	width: 327px;
+    height: 244px;
+	display:block;
+	position:absolute;
+}
+
+.large-image {
+    height: 245px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-gallery {
+    position: relative;
+}
+
+.img-desc[class] {
+    background: url(images/bg_gallery.png);
+	font-weight:bold;
+}
+
+.img-desc {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px 20px 27px 20px;
+    width: 287px;
+}
+
+.img-desc p {
+    padding-right: 15px;
+	margin-bottom:0;
+}
+
+/********************************************************************************************
+7. VIDEO - SINGLE MODULE AND 8. VIDEO WITH QUEUE MODULE
+********************************************************************************************/
+#flashcontent {
+	margin-left:-10px;
+}
+
+/********************************************************************************************
+9. LISTS VERTICAL MODULE
+********************************************************************************************/
+.sm-listVert ul li {
+    margin: 0 10px;
+    padding: 4px 0;
+    line-height: 1.6em;
+}
+
+.sm-listVert ul li a {
+    background: transparent url(images/bg_orange_arrow.gif) no-repeat scroll 0 3px;
+    font-size: 1.1em;
+    padding-left: 10px;
+	text-indent:10px;
+	margin-left:-10px;	
+}
+
+/********************************************************************************************
+10. TEXT W/IMAGE or RICH MEDIA LARGE HORIZONTAL MODULE
+********************************************************************************************/
+.lg-textImageHoriz img {
+    float: left;
+    margin-right: 10px;
+	margin-bottom:8px;
+	width:auto;
+}
+
+.lg-textImageHoriz img.no-stroke {
+	border:none;
+}
+
+.lg-textImageHoriz p {
+    line-height: 1.4em;
+    font-size: 1.1em;
+}
+
+.lg-textImageHoriz h4, 
+.lg-textImageHoriz h4 a {
+	font-size:1.2em;
+	line-height: 1.2em;
+	margin-bottom:0.3em;
+	margin-top:4px;
+}
+
+.lg-textImageHoriz h5 {
+    clear: both;
+    padding: 10px 0 8px 0;
+    color: #555;
+	text-transform:uppercase;
+}
+
+.lg-textImageHoriz ul {
+    margin-bottom: 15px;
+}
+
+.lg-textImageHoriz ul li {
+    margin-bottom: 3px;
+	margin-left:10px;
+	text-indent:-10px;
+	line-height:1.4em;
+}
+
+.lg-textImageHoriz ul li a {
+    font-size: 1.1em;
+	font-weight: bold;
+    background: transparent url(images/bg_orange_arrow.gif) no-repeat scroll 0 3px;
+    padding: 0 0 0 10px;
+}
+
+/********************************************************************************************
+11. 2 COLUMN TEXT W/IMAGE MODULE
+********************************************************************************************/
+.lg-textImageTwoCol .col-1 {
+    float: left;
+    width: 215px;
+}
+
+.lg-textImageTwoCol .col-2 {
+    float: right;
+    width: 217px;
+}
+
+.lg-textImageTwoCol p {
+    margin-bottom: 5px;
+    line-height: 1.4em;
+}
+
+.lg-textImageTwoCol h4, 
+.lg-textImageTwoCol h4 a {
+    margin: 5px 0;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    width: 190px;
+}
+
+.lg-textImageTwoCol a {
+
+    color: #f47321;
+    font-size: 1.1em;
+}
+
+/********************************************************************************************
+12. TEXT W/IMAGE SMALL VERTICAL MODULE
+********************************************************************************************/
+.sm-textImageVert p {
+    margin: 10px 0 0 0;
+	line-height: 1.4em;
+}
+
+.sm-textImageVert h3.h3-logo {
+    margin: 0;
+}
+
+.sm-textImageVert h4 {
+    text-transform: uppercase;
+	margin:5px 0 0 0;
+}
+
+.sm-textImageVert blockquote {
+    background: url(../images/quote_begin.gif)  no-repeat;
+    padding: 12px 0 15px 0;
+    line-height: 1.4em;
+    font-size: 1.1em;
+	margin-top: 15px;
+	text-indent: 40px;
+	position:relative;
+}
+
+.sm-textImageVert blockquote div {
+	 background: url(../images/quote_end.gif) right bottom no-repeat;
+	 height: 30px;
+	 width:34px;
+	 margin-top:0;
+	 position:absolute;
+	 right:0;
+	 bottom:0;		
+}
+
+/********************************************************************************************
+13. TEXT W/LIST SMALL VERTICAL MODULE
+********************************************************************************************/
+.sm-textListVert p {
+	 line-height: 1.4em;
+	 margin-bottom: 5px;
+}
+
+.sm-textListVert {
+    background: #fff url(images/bg_seal.gif) no-repeat right bottom;
+}
+
+.sm-textListVert .read-more {
+    margin-bottom: 20px;
+}
+
+.sm-textListVert ul li {
+    margin: 10px 0;
+	font-size: 1.1em;
+}
+
+.sm-textListVert ul li a {
+	background: url(images/orange_bullet.gif) no-repeat left 10%;
+    padding-left: 10px;
+}
+
+/********************************************************************************************
+14. TABBED LIST MODULE
+********************************************************************************************/
+.sm-tabbedList ul.most-viewed li, 
+.sm-tabbedList ul.most-emailed li {
+    background: url(images/orange_bullet.gif) no-repeat left 10%;
+    margin: 10px;
+    padding-left: 10px;
+    line-height: 1.4em;
+	font-size:1.1em;
+}
+
+.sm-tabbedList ul.most-viewed li a, 
+.sm-tabbedList ul.most-emailed li a {
+    color: #f47321;
+}
+
+/* Tabs CSS */
+/* Caution! Ensure accessibility in print and other media types... */
+@media projection, screen {
+
+	.ui-tabs-hide {
+			display: none;
+	}
+}
+/* Hide useless elements in print layouts... */
+@media print {
+
+	.ui-tabs-nav {
+			display: none;
+	}
+}
+
+/* Skin */
+.ui-tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 4px 0 0 0;	
+}
+
+.ui-tabs-nav:after {
+    display: block;
+    clear: both;
+    content: " ";
+}
+
+.ui-tabs-nav li {
+    float: left;
+    margin: 0 4px 0 0;	
+}
+
+.ui-tabs-nav a, .ui-tabs-nav a span {
+    display: block;
+    padding: 0 10px;
+}
+
+.ui-tabs-nav a {
+    position: relative;
+    top: 0px;
+    padding: 0 0 0 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #e0dfd9;
+    white-space: nowrap; /* required in IE 6 */
+    background: #f47321 url(images/tab-off.gif) repeat-x;
+    color: #fff;
+}
+
+.ui-tabs-nav .ui-tabs-selected a, .ui-tabs-nav a:focus, .tabs-nav a:active {
+    outline: 0; /* prevent dotted border in Firefox */
+}
+
+.ui-tabs-nav a span {
+    width: 105px; /* IE 6 treats width as min-width */
+    min-width: 105px;
+    font-size: 1em;
+    height: 20px; /* IE 6 treats height as min-height */
+    min-height: 20px;
+    padding: 5px 0 0 0;
+}
+
+.ui-tabs-nav .last {
+    margin-right: 0;
+}
+
+.ui-tabs-nav a:hover, .ui-tabs-nav a:focus, .ui-tabs-nav a:active {
+    cursor: pointer;
+}
+
+.ui-tabs-panel {
+    border: 1px double #dfdfdf;	
+    padding: 1em 0;
+    margin: -1px 0 0 0;
+    background: #fff;
+}
+
+.most-viewed, .most-emailed {
+    padding: 0 2px;
+}
+
+.ui-tabs-nav .ui-tabs-selected a {
+    color: #a62315;
+	border: 1px solid #e0dfd9;
+	border-bottom: 1px solid #ffffff;
+	background:#fff;
+}
+
+/********************************************************************************************
+15. SMALL FORM MODULE
+********************************************************************************************/
+.sm-form fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sm-form fieldset input {
+    left: 12px;
+    position: relative;
+    top: 5px;
+	border: 1px solid #E0E0E0;
+	height: 18px;
+}
+
+.sm-form fieldset select {
+    width: 160px;
+    font-size: 1.1em;
+    color: #555;
+    padding: 2px 0;
+	border: 1px solid #E0E0E0;
+	height: 20px;
+}
+
+/********************************************************************************************
+16. LOGIN MODULE
+********************************************************************************************/
+.sm-login fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sm-login fieldset input {
+	margin-top:8px;
+	display:block;
+	width:212px;
+	padding: 2px 0;
+	border: 1px solid #e0e0e0;
+    height: 18px;
+}
+
+.sm-login fieldset input.btn-submit {
+	width:76px;
+	float:right;
+	margin-top:20px;
+	padding:0;
+	border:none;
+	height:auto;
+}
+
+/********************************************************************************************
+17. TABBED FEATURE MODULE
+********************************************************************************************/
+.lg-tabbedFeature .ui-tabs-nav:after { /* clearing without presentational markup, IE gets extra treatment */
+    display: block;
+    clear: both;
+    content: " ";
+}
+
+.lg-tabbedFeature .ui-tabs-nav li {
+    float: left;
+    margin: 0 3px 0 1px;
+    min-width: 140px; 
+}
+
+.lg-tabbedFeature .ui-tabs-nav a, 
+.lg-tabbedFeature .ui-tabs-nav a span {
+    display: block;
+    padding: 0 10px;
+    background: url(../css/images/news-tab.gif) no-repeat;
+}
+
+.lg-tabbedFeature .ui-tabs-nav a {
+    top: 1px;
+    z-index: 2;
+    padding-left: 0;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: hand;
+    text-align: center;
+    white-space: nowrap; /* required in IE 6 */
+    border: none;
+}
+
+.lg-tabbedFeature .ui-tabs-nav .ui-tabs-selected {
+	margin-top:-4px;
+	background:none;
+}
+
+.lg-tabbedFeature .ui-tabs-nav .ui-tabs-selected a {
+    background: url(../css/images/news-tab-selected.gif) no-repeat;
+}
+
+.lg-tabbedFeature .ui-tabs-nav .ui-tabs-selected a, 
+.lg-tabbedFeature .ui-tabs-nav a:hover, 
+.lg-tabbedFeature .ui-tabs-nav a:focus, 
+.lg-tabbedFeature .ui-tabs-nav a:active {
+    outline: 0; /* prevent dotted border in Firefox */
+}
+
+.lg-tabbedFeature .ui-tabs-nav a span {
+    width: 64px; /* IE 6 treats width as min-width */
+    min-width: 64px;
+    height: 33px; /* IE 6 treats height as min-height */
+    min-height: 33px;
+    padding-top: 8px;
+    padding-right: 3px;
+}
+
+* >.lg-tabbedFeature .ui-tabs-nav a span { /* hide from IE 6 */
+    width: auto;
+    height: auto;
+}
+
+.lg-tabbedFeature .ui-tabs-nav .ui-tabs-selected a span, 
+.lg-tabbedFeature .ui-tabs-nav a:hover span, 
+.lg-tabbedFeature .ui-tabs-nav a:focus span, 
+.lg-tabbedFeature .ui-tabs-nav a:active span {
+    background-position: 0 -50px;
+}
+
+.lg-tabbedFeature .ui-tabs-nav .ui-tabs-selected a:link {
+    cursor: text;
+}
+
+.lg-tabbedFeature .ui-tabs-panel {
+    background: #fff; /* declare background color for container to avoid distorted fonts in IE while fading */
+    float: none;
+    border: none;
+    padding: 0 0 10px 0;
+    clear:both;
+}
+
+.tab-content {
+    padding: 10px 2px 0 2px;
+    background-color: #fff;
+    margin-bottom: 22px;
+}
+
+.tab-content h4, .tab-content h4 a {
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+	color:#A62315;
+}
+
+.tab-content h5 {
+    text-transform: uppercase;
+    color: #555;
+    margin: 10px 0;
+}
+
+.tab-content a {
+    color: #f47321;
+}
+
+.tab-content ul {
+    margin: 5px 0 14px 0;
+}
+
+.tab-content ul li a {
+    background: url(images/bg_orange_arrow.gif) left 50% no-repeat;
+    padding-left: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.tab-content p {
+    line-height:1.4em;
+	margin: 5px 0 5px 0;
+}
+
+/********************************************************************************************
+18. MAGAZINE MODULE
+********************************************************************************************/
+.lg-magazine h4, .lg-magazine h4 a {
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.lg-magazine .mag-heading {
+	clear:both;
+}
+
+.lg-magazine .mag-heading img {
+    float: right; 
+	border:none;
+	margin-right:20px;
+}
+
+.lg-magazine p {
+    line-height: 1.4em;
+    font-size: 1.1em;
+}
+
+.lg-magazine ul {
+    padding-top: 7px;
+    clear: both;
+}
+
+.lg-magazine ul li {
+    clear: both;
+}
+
+.lg-magazine ul li img {
+    float: left;
+    margin: 0 10px 12px 0;
+}
+
+.lg-magazine ul li h4 {
+    padding: 12px 0 4px 0;
+}
+
+/********************************************************************************************
+19. SUBSCRIPTION MODULE
+********************************************************************************************/
+.sm-subscription h3 {
+    color: #f47321;
+}
+
+.sm-subscription .accordion {
+    padding: 10px 0 0 0;
+    background:#fff;
+}
+
+.sm-subscription .accordion h5 {
+    margin-bottom: 1px;
+    display: block;
+    padding: 8px 5px 8px 20px;
+	background:  #f47321 url(images/orange-arrow-over-down.gif) 10px 9px no-repeat;
+	cursor: pointer;
+	font-weight: bold;
+	color:#fff;
+}
+
+.sm-subscription .accordion h5.active {
+	background-position: 7px -84px;
+}
+
+.sm-subscription .accordion h5 a {
+    background: url(images/bg_orange_double_arrow.gif) right 4px no-repeat;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 1.0em;
+	color:#fff;
+}
+
+.sm-subscription .accordion div, .sm-subscription .accordion div fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background:#fff;
+}
+
+.sm-subscription .accordion div fieldset input {
+	margin-top:8px;
+	display:block;
+	width:180px;
+	padding: 2px;
+	border: 1px solid #e0e0e0;
+    height: 18px;
+}
+
+.sm-subscription .accordion div fieldset input.btn-submit {
+	width:76px;
+	float:right;
+	margin-top:20px;
+	border:none;
+	height:23px
+}
+
+.sm-subscription .accordion div fieldset.inline {
+	position: relative;
+}
+
+.sm-subscription .accordion div fieldset.inline input.zip {
+    float:right;
+	width:100px;
+}
+
+.sm-subscription .accordion div fieldset.inline select {
+    width: 60px;
+    font-size: 1.1em;
+    color: #555;
+    padding: 2px 0;
+	float:left;
+	margin-top:8px;
+}
+
+.sm-subscription .accordion div {
+	background: #fff;
+	margin: 0;
+	padding: 10px 15px 20px;
+	display: none;
+}
+
+/********************************************************************************************
+20. PUBCLICATIONS VERTICAL MODULE
+********************************************************************************************/
+.sm-publications ul {
+	margin-top:8px;
+}
+
+.sm-publications ul li {
+    background-color: #f47321;
+    margin-bottom: 1px;
+    display: block;
+    padding: 8px 5px 8px 10px;
+}
+
+.sm-publications ul.pdf li a{
+    background: url(images/pdf.gif) left no-repeat;
+    padding: 7px 3px 7px 25px;
+}
+
+.sm-publications ul li a {
+    background: url(images/bg_lightOrange_arrow.gif) 0 3px no-repeat;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+	color:#fff;
+}
